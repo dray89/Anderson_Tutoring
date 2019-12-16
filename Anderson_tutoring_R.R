@@ -1,0 +1,32 @@
+library(RConics)
+
+#Given transaction table
+T <- matrix(data = c(90, 50, 40, 200, 120, 125, 40, 500, 60, 150, 200, 550, 11, 19, 30, 0), nrow = 4, ncol = 4,byrow = TRUE)
+#Technical coefficients: Matrix A
+
+Iron = c(T[,1]/T[1,4])
+Coal = c(T[,2]/T[2,4]) 
+Wheat = c(T[,3]/T[3,4])
+
+df=data.frame(Iron,Coal,Wheat) 
+df[4,] 
+row.names(df) <- list("Iron","Coal","Wheat","Labor Units") 
+I <- diag(c(1,1,1))
+
+A = df[-c(4),-c(4)]
+A = df[c(1:3),c(1:3)]
+I_A = I - A
+
+IA_det = det()
+I_A_matrix = data.matrix(I_A)
+adjoint_T = t(adjoint(I_A_matrix))
+leontief = adjoint_T/IA_det
+leontief_inverse = t(leontief)
+
+vectorI_df = df[c(4),]
+vectorI_matrix = data.matrix(vectorI_df)
+vectorI = as.vector(vectorI_matrix)
+embodied_labor = vectorI*leontief_inverse
+
+A_rate = A*1.1
+I_Arate = I - A_rate
