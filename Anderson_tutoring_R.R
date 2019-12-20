@@ -17,16 +17,22 @@ A = df[-c(4),-c(4)]
 A = df[c(1:3),c(1:3)]
 I_A = I - A
 
-IA_det = det()
+IA_det = det(I_A_matrix)
 I_A_matrix = data.matrix(I_A)
-adjoint_T = t(adjoint(I_A_matrix))
+adjoint_T = adjoint(I_A_matrix)
 leontief = adjoint_T/IA_det
-leontief_inverse = t(leontief)
 
 vectorI_df = df[c(4),]
 vectorI_matrix = data.matrix(vectorI_df)
 vectorI = as.vector(vectorI_matrix)
-embodied_labor = vectorI*leontief_inverse
+embodied_labor = vectorI*leontief
 
 A_rate = A*1.1
 I_Arate = I - A_rate
+
+IArate_matrix = data.matrix(I_Arate)
+adjoint_IArate = adjoint(IArate)
+
+IA_det = det(IArate_matrix)
+
+general_profit_rate = adjoint_IArate/IA_det
