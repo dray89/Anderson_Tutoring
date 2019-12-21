@@ -31,8 +31,33 @@ A_rate = A*1.1
 I_Arate = I - A_rate
 
 IArate_matrix = data.matrix(I_Arate)
-adjoint_IArate = adjoint(IArate)
+adjoint_IArate = adjoint(IArate_matrix)
 
 IA_det = det(IArate_matrix)
 
 general_profit_rate = adjoint_IArate/IA_det
+gpr_matrix = data.matrix(general_profit_rate)
+
+interim_calculations = vectorI_matrix%*%gpr_matrix
+input_sums = rowSums(T[,-c(4)])
+new_matrix = cbind(T, input_sums)  
+surplus = new_matrix[,4] - new_matrix[,5]
+surplus[4] = 0
+new_matrix = cbind(new_matrix, surplus) 
+denominator = interim_calculations%*%surplus[1:3]
+wage = 1/denominator
+vector_p = wage%*%interim_calculations
+p_r = vector_p%*%surplus[1:3]
+
+unit_price_of_wheat = vector_p[3]
+gross_wheat_output = T[3,4]
+gross_revenue = unit_price_of_wheat*gross_wheat_output
+wheat_inputs = T[,3]
+input_costs = wheat_inputs[1:3]*vector_p
+cost_of_production = sum(input_costs)
+profit = gross_revenue - cost_of_production
+
+#at 10% general rate of profit, we assume this is the return to capital 
+return_to_capital = .1*profit
+return_to_labor = wheat_inputs[4]*wage
+solow_residual = profit - return_to_capital - return_to_labor

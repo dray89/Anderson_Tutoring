@@ -1,0 +1,24 @@
+15:08:16	 From  macintoshhd : wage (w) and prices (vector p)
+15:25:59	 From  Debra Ray : interim_calculations =
+15:32:06	 From  Debra Ray : https://stackoverflow.com/questions/30277966/add-all-elements-in-matrix-r
+15:43:02	 From  Debra Ray : df[row, column]
+15:43:17	 From  Debra Ray : df[3,]
+15:43:26	 From  Debra Ray : df[2.]
+15:43:33	 From  Debra Ray : df[1,]
+15:43:53	 From  Debra Ray : df[ ,1]
+15:57:03	 From  Debra Ray : https://www.c-sharpcorner.com/article/matrix-in-r-adding-rows47columns-and-accessing-elements-by-name-in-matrix-i/
+16:00:04	 From  Debra Ray : cbind(matrix, column)
+16:17:53	 From  Debra Ray : surplus[4] = 0
+16:50:44	 From  Debra Ray : https://math.stackexchange.com/questions/2195812/what-can-we-say-if-the-dot-product-of-two-vectors-is-equal-to-1
+16:52:06	 From  Debra Ray : 1/x = > x
+17:13:09	 From  Debra Ray : unit_price_of_wheat = vector_p[3]
+17:14:08	 From  Debra Ray : gross_wheat_output = T[3,4]
+17:15:13	 From  Debra Ray : unit_price_of_wheat*gross_wheat_output
+17:16:42	 From  Debra Ray : wheat_inputs = T[,3]
+17:19:37	 From  Debra Ray : cost_of_production = wheat_inputs[1:3]*vector_p
+17:21:42	 From  Debra Ray : sum(cost_of_production)
+17:21:51	 From  Debra Ray : sum(cost_of_production)
+17:23:22	 From  Debra Ray : input_costs = wheat_inputs[1:3]*vector_pcost_of_production = sum(input_costs)
+17:24:45	 From  Debra Ray : profit = gross_revenue - cost_of_production
+17:30:57	 From  Debra Ray : #at 10% general rate of profit, we assume this is the return to capital return_to_capital = .1*profitreturn_to_labor = wheat_inputs[4]*wagesolow_residual = profit - return_to_capital - return_to_labor
+17:31:18	 From  Debra Ray : https://www.investopedia.com/terms/s/solow-residual.asp

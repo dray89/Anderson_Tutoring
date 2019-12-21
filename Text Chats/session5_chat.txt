@@ -1,0 +1,12 @@
+15:44:02	 From  macintoshhd : https://www.khanacademy.org/math/statistics-probability/analyzing-categorical-data/two-way-tables-for-categorical-data/e/trends-in-categorical-data?modal=1
+16:18:21	 From  Debra Ray : http://www.philender.com/courses/multivariate/notes/matr.html
+16:18:52	 From  Debra Ray : I <- diag(c(1,1,1))
+16:36:46	 From  Debra Ray : A = df[-c(4),-c(4)]
+16:37:49	 From  Debra Ray : A = df[c(1:3),c(1:3)]
+16:39:49	 From  Debra Ray : I_A
+16:40:38	 From  Debra Ray : https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/
+16:42:08	 From  Debra Ray : https://exceljet.net/excel-functions/excel-mdeterm-function
+16:49:55	 From  Debra Ray : A_det 
+16:50:28	 From  Debra Ray : https://stat.ethz.ch/R-manual/R-patched/library/base/html/det.html
+16:52:55	 From  Debra Ray : A_det = det(data.matrix(A))
+16:55:54	 From  Debra Ray : IA_det = det(data.matrix(I_A))

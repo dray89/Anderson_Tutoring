@@ -1,0 +1,11 @@
+16:21:38	 From  Debra Ray : http://www.r-tutor.com/r-introduction/matrix
+16:32:24	 From  Debra Ray : TRUE
+16:33:37	 From  Debra Ray : 200500550
+16:45:51	 From  Debra Ray : https://www.cyclismo.org/tutorial/R/basicOps.html
+16:50:06	 From  Debra Ray : Copy the command you just typed into the console and paste it into the R file above it. 
+17:18:05	 From  Debra Ray : https://stackoverflow.com/questions/42500133/r-code-error-in-matrix-dimnames-must-be-a-list
+17:19:28	 From  Debra Ray : dimnames = list("iron","coal")
+17:24:23	 From  Debra Ray : https://stackoverflow.com/questions/18115550/combine-two-or-more-columns-in-a-dataframe-into-a-new-column-with-a-new-name
+17:25:27	 From  Debra Ray : n = c(2, 3, 5) s = c("aa", "bb", "cc") b = c(TRUE, FALSE, TRUE) df = data.frame(n, s, b)
+17:39:28	 From  Debra Ray : https://stat.ethz.ch/R-manual/R-devel/library/base/html/row.names.html
+17:46:00	 From  Debra Ray : https://stackoverflow.com/questions/17514648/how-do-i-name-the-row-names-column-in-r
