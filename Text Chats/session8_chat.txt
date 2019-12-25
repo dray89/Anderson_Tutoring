@@ -1,0 +1,15 @@
+15:03:20	 From  macintoshhd : Can you hear me?
+15:03:23	 From  macintoshhd : I can hear you
+15:33:11	 From  Debra Ray : https://en.wikipedia.org/wiki/Dot_product
+15:50:42	 From  Debra Ray : p_r = vector_p%*%surplus[1:3]
+16:01:12	 From  Debra Ray : reciprocal_multiplication_equals_1
+16:01:41	 From  Debra Ray : dot_product_of_reciprocals_equals_1
+16:09:00	 From  Debra Ray : In linear algebra, the adjugate, classical adjoint, or adjunct of a square matrix is the transpose of its cofactor matrix. The adjugate has sometimes been called the "adjoint", but today the "adjoint" of a matrix normally refers to its corresponding adjoint operator, which is its conjugate transpose
+16:09:13	 From  Debra Ray : https://en.wikipedia.org/wiki/Adjugate_matrix
+16:11:30	 From  Debra Ray : In linear algebra, the determinant is a scalar value that can be computed from the elements of a square matrix and encodes certain properties of the linear transformation described by the matrix. The determinant of a matrix A is denoted det(A), det A, or |A|.
+16:11:43	 From  Debra Ray : https://www.google.com/search?q=determinant+of+a+matrix&rlz=1C1CHBF_enUS840US840&oq=determinant+&aqs=chrome.1.0l8.3570j0j4&sourceid=chrome&ie=UTF-8
+16:20:24	 From  Debra Ray : https://www.datacamp.com/community/tutorials/linear-regression-R
+16:38:32	 From  Debra Ray : http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/
+16:40:44	 From  Debra Ray : getwd()
+16:40:53	 From  Debra Ray : https://www.google.com/search?rlz=1C1CHBF_enUS840US840&sxsrf=ACYBGNRHmMn4c4uGYTlxQJzMdGgtxXCVAg%3A1577137191850&ei=JzQBXpq2M8PH5gLZ06yAAg&q=print+directory+in+r&oq=print+directory+in+r&gs_l=psy-ab.3..0j0i22i30l4j0i22i10i30j0i22i30l4.25381.27939..28119...0.4..1.302.3309.0j19j0j1......0....1..gws-wiz.......0i71j35i39j0i273j0i67j0i20i263j0i10.k_S2PHGTGFA&ved=0ahUKEwja5dPw3czmAhXDo1kKHdkpCyAQ4dUDCAs&uact=5
+16:44:17	 From  Debra Ray : ageandheight <- read_excel("ageandheight.xls", sheet = "Hoja2") 
