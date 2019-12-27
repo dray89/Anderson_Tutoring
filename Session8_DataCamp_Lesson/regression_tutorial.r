@@ -1,9 +1,20 @@
 #https://www.datacamp.com/community/tutorials/linear-regression-R
 
 library(readxl)
+
+#import excel data
 ageandheight <- read_excel("ageandheight.xls", sheet = "Hoja2") #Upload the data
+
+#fix incorrect data point
+ageandheight[7, 'height'] = 79.9
+
+#run regression
 lmHeight = lm(height~age, data = ageandheight) #Create the linear regression
+
+#show summary data
 summary(lmHeight) #Review the results
+
+
 lmHeight2 = lm(height~age + no_siblings, data = ageandheight) #Create a linear regression with two variables
 summary(lmHeight2) #Review the results
 

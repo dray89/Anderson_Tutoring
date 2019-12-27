@@ -1,0 +1,16 @@
+14:33:39	 From  Debra Ray : https://www.datacamp.com/community/tutorials/linear-regression-R
+14:50:19	 From  Debra Ray : https://stackoverflow.com/questions/5568847/how-to-open-csv-file-in-r-when-r-says-no-such-file-or-directory
+14:51:02	 From  Debra Ray : dataset = read.csv('C:\\Users\\Desktop\\Machine Learning\\Data.csv')
+14:52:22	 From  Debra Ray : https://campus.datacamp.com/courses/string-manipulation-in-r-with-stringr/string-basics?ex=4
+15:02:48	 From  Debra Ray : lmHeight = lm(height~age, data = ageandheight) #Create the linear regression
+15:05:18	 From  Debra Ray : lm([target variable] ~ [predictor variables], data = [data source])
+15:07:15	 From  Debra Ray : lmHeight = lm(height~age, data = ageandheight) #Create the linear regressionlm([target variable] ~ [predictor variables], data = [data source])
+15:07:49	 From  Debra Ray :     lm([target variable] ~ [predictor variables], data = [data source])
+15:19:54	 From  Debra Ray : https://en.wikipedia.org/wiki/Linear_regression
+15:21:07	 From  Debra Ray : summary(lmHeight)
+15:27:12	 From  Debra Ray : ageandheight[7,'height']
+15:43:57	 From  Debra Ray : http://r-statistics.co/Assumptions-of-Linear-Regression.html#Assumption%201
+15:48:57	 From  Debra Ray : https://en.wikipedia.org/wiki/Standard_error
+15:56:12	 From  Debra Ray : https://blog.minitab.com/blog/adventures-in-statistics-2/multiple-regession-analysis-use-adjusted-r-squared-and-predicted-r-squared-to-include-the-correct-number-of-variables
+15:56:22	 From  Debra Ray : https://www.google.com/search?q=Fstatistic&rlz=1C1CHBF_enUS840US840&oq=Fstatistic&aqs=chrome..69i57j0l7.5848j0j7&sourceid=chrome&ie=UTF-8
+15:56:31	 From  Debra Ray : https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit
